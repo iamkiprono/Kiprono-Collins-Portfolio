@@ -24,6 +24,7 @@ body{
 .container{
   width: 1200px;
   margin: auto;
+  min-height: 100vh;
 }
 .homepage{
   height: 80vh;
@@ -31,6 +32,33 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.my-skills{
+  width: 100%;
+  
+  
+}
+.card-container{
+  display: flex;
+}
+
+.my-skills h2{
+  margin-bottom: 30px;
+  text-align: center
+}
+.card{
+  
+ text-align: center;
+}
+.card h4{
+  margin-bottom: 30px;
+   text-align: center;
+}
+.card img{
+  width: 350px;
+}
+.card p{
+  margin-top: 30px;
 }
 
 
@@ -40,5 +68,8 @@ body{
   .container{
     width: 100%;
     padding: 0 20px;
+  }
+  .card-container{
+   flex-direction: column;
   }
 }
