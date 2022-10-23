@@ -41,6 +41,8 @@ body{
 .card-container{
   display: flex;
   flex-wrap: wrap;
+  
+  justify-content: center;
 }
 
 .my-skills h2{
@@ -69,6 +71,7 @@ body{
 @media(max-width:800px){
   .container{
     width: 100%;
+    
     padding: 0 20px;
   }
   .card{
@@ -77,6 +80,7 @@ body{
   
   .card img{
     width:150px;
-    padding: 0 20px;
+    padding: 0 0px;
   }
+  
 }
