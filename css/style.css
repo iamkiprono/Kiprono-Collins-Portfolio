@@ -8,8 +8,12 @@
 
   
 }
+:root {
+  --primary-color: #0a0a0a;
+  --seconday-color: #fcfcfc;
+}
 a{
-  color: white;
+  color: var(--seconday-color);
 }
 nav{
   display: flex;
@@ -18,8 +22,8 @@ nav{
   padding: 10px 0;
 }
 body{
-  background: black;
-  color: white;
+  background: var(--primary-color);
+  color: var(--seconday-color);
 }
 .container{
   width: 1200px;
