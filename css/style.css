@@ -4,15 +4,13 @@
   font-family: "Josefin Sans", sans-serif;
   box-sizing: border-box;
 }
-.container{
+.container {
   width: 100%;
- 
 }
 .hero {
   height: 100vh;
   width: 100%;
   background: rgb(20, 19, 19);
- 
 }
 nav {
   display: flex;
@@ -61,7 +59,7 @@ nav ul li a:hover {
 }
 .content {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 8%;
   transform: translateY(-50%);
 }
@@ -192,7 +190,7 @@ button:hover {
   overflow: hidden;
   text-align: center;
 }
-.card img{
+.card img {
   width: 100%;
 }
 .card i {
@@ -306,4 +304,17 @@ footer p:nth-child(2) {
   color: #f9004d;
   bottom: 35px;
   font-size: 14px;
+}
+
+/* Smaller Devices */
+@media (max-width: 700px) {
+  .logo {
+    font-size: 40px;
+  }
+  .box {
+    flex-direction: column;
+  }
+  .card {
+    height: auto;
+  }
 }
