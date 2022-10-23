@@ -9,9 +9,12 @@
   
 }
 :root {
-  --primary-color: #1a120e;
-  --seconday-color: #e8c599;
+  --primary-color: #ffffff;
+ --seconday-color: #000000;
   --third-color: #b72818;
+  /* --primary-color: #1a120e;
+ --seconday-color: #e8c599;
+  --third-color: #b72818; */
 }
 a{
   color: var(--seconday-color);
