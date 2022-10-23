@@ -11,6 +11,7 @@
 :root {
   --primary-color: #0a0a0a;
   --seconday-color: #fcfcfc;
+  --third-color: rgb(192, 8, 8);
 }
 a{
   color: var(--seconday-color);
@@ -36,6 +37,12 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.homepage h1{
+  color: var(--third-color);
+}
+.homepage h1 h3 p{
+  padding: 3rem;
 }
 .my-skills{
   width: 100%;
@@ -78,6 +85,11 @@ body{
     
     padding: 0 20px;
   }
+  .homepage {
+    margin: 0;
+   align-items: flex-start;
+  }
+
   .card{
     width: 150px;
   }
